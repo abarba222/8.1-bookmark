@@ -5,7 +5,7 @@ export default Backbone.View.extend({
 tagName: 'ul',
 
 
-  initialze: function() {
+  initialize: function() {
     this.render();
     this.listenTo(this.collection, 'update', this.render);
   },

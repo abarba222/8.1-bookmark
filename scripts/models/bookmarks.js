@@ -9,7 +9,7 @@ var Bookmark = Backbone.Model.extend({
 
 var BookmarkCollection = Backbone.Collection.extend({
   model: Bookmark,
-  url:"https://api.parse.com/1/classes/Bookmark",
+  url:"https://api.parse.com/1/classes/Bookmarks",
 
   parse: function(response){
     return response.results;
